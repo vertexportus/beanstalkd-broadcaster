@@ -6,6 +6,11 @@
         "issues": "https://github.com/vertexportus/beanstalkd-broadcaster/issues",
         "source": "https://github.com/vertexportus/beanstalkd-broadcaster"
     },
+    "autoload": {
+        "psr-0": {
+            "Vertexportus": "src/"
+        }
+    },
     "require": {
         "php": ">=7.0",
         "pda/pheanstalk": "^3.1",
