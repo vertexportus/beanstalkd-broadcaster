@@ -1,0 +1,29 @@
+{
+    "name": "vertexportus/beanstalkd-broadcaster",
+    "description": "Laravel Beanstalkd Broadcaster support",
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/vertexportus/beanstalkd-broadcaster/issues",
+        "source": "https://github.com/vertexportus/beanstalkd-broadcaster"
+    },
+    "require": {
+        "php": ">=7.0",
+        "pda/pheanstalk": "^3.1",
+        "illuminate/support": ">=5.4",
+        "illuminate/broadcasting": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Alves",
+            "email": "dfaobolinho@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vertexportus\\BeanstalkdBroadcaster\\BeanstalkdBroadcasterServiceProvider"
+            ]
+        }
+    }
+}
